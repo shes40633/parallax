@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .backg1 {
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url('https://fpscdn.yam.com/MjY5MzMzODh3b3JsZA==/2f15714b542cddf6.jpg');
+        }
+
+        .title {
+            padding: 10px 20px;
+            background-color: gray;
+            position: relative;
+            left: calc(50% - 45px);
+            top: calc(50% - 20px);
+            line-height: 30px;
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+        .mask{
+            width:100%;
+            height:100%;
+            background-color:rgba(94, 83, 83, 0.589);
+        }
+
+        .content-title {
+            padding: 10px;
+            text-align: center;
+            color: red;
+        }
+
+        .content-c {
+            padding: 0 100px 50px 100px;
+            text-align: justify;
+
+        }
+
+        .banner-Mbg {
+            width: 100%;
+            height: 40vh;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERmmizWNYtaA0R9c5vgTBfdOsEw96kXETDJT8kLZKbl11A3XI_A');
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .banner-Mtitle {
+            padding: 10px 20px;
+            letter-spacing: 3px;
+            line-height: 30px;
+            background-color: gray;
+            position: relative;
+            left: calc(50% - 100px);
+            top: calc(50% - 21px);
+            font-size: 20px;
+        }
+
+        .content-Mc {
+            width: 100%;
+            height: 10vh;
+            padding-left: 40px;
+            padding-top: 30px;
+            color: gray;
+            background-color: rgb(36, 34, 34);
+            line-height: 30px;
+
+        }
+
+        .banner-botbg {
+            width: 100%;
+            height: 40vh;
+            background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6v2nLfEEN1L0a9Klwne5Ek8h8uadr0o6IH4Z3koWL9V9KmezAQg');
+            background-position:center;
+            background-size:cover;
+            background-attachment: fixed;
+        }
+        .banner-botTitle{
+            padding:10px 20px;
+            line-height:3px;
+            font-size:20px;
+            letter-spacing:1.5px;
+            background-color:gray;
+            position:relative;
+            left:calc(50% - 80px);
+            top:calc(50% - 21px);
+        }
+        .content-botc{
+            width:100%;
+            height:10vh;
+            background-color:rgb(39, 37, 37);
+            line-height:3px;
+            padding-left:40px;
+            padding-top:45px;
+            color:gray;
+        }
+        .footer-bg{
+            width:100%;
+            height:100vh;
+            background-image:url('https://fpscdn.yam.com/MjY5MzMzODh3b3JsZA==/2f15714b542cddf6.jpg');
+            background-position:center;
+            background-size:cover;
+            background-attachment: fixed;
+        }
+        .footer-title{
+            padding:10px 20px;
+            background-color:gray;
+            letter-spacing:1.5px;
+            line-height:30px;
+            position:relative;
+            left:calc(50% - 48px);
+            top:calc(50% - 18px);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section id="banner">
+            <div class="backg1">
+                <div class="mask">
+                <span class="title">penguin</span>
+            </div> 
+           </div>
+        </section>
+        <section id="content">
+            <h1 class="content-title">PARALLAX DEMO</h1>
+            <div class="content-c">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, ad recusandae.
+                Rerum, reiciendis! Illo minus excepturi tempore ab minima quisquam labore sed, ullam nesciunt
+                necessitatibus quae nobis explicabo culpa ipsa laboriosam eius perferendis autem. Eveniet nesciunt eos
+                sit, deserunt ab animi, explicabo perspiciatis atque enim, cupiditate debitis vero dolorem iste
+                assumenda officiis impedit possimus esse nostrum eius itaque aut laborum voluptatum voluptatibus! Soluta
+                quasi accusantium similique dolores mollitia quidem numquam illum sed alias maiores magni deserunt,
+                ducimus hic! Laborum distinctio at quos amet dignissimos facilis incidunt, recusandae blanditiis
+                necessitatibus veniam explicabo, sapiente esse nam ipsa? Dolorem dolores corporis cum assumenda?</div>
+        </section>
+        <section id="banner-M">
+            <div class="banner-Mbg">
+                <span class="banner-Mtitle">LESS HEIGHT</span>
+            </div>
+        </section>
+        <section id="content-m">
+            <div class="content-Mc">Scroll up and down to really get the feeling of how Parallax Scrolling works.</div>
+        </section>
+        <section id="banner-bot">
+            <div class="banner-botbg">
+            <span class="banner-botTitle">SCROLL UP</span>
+            </div>
+        </section>
+        <section id="content-bot">
+           <div class="content-botc">Scroll up and down to really get the feeling of how Parallax Scrolling works.</div>
+        </section>
+        <section id="footer">
+        <div class="footer-bg">
+        <span class="footer-title">COOL!</span>
+        </div>
+        </section>
+    </main>
+</body>
+
+</html>
